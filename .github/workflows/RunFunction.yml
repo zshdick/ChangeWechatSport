@@ -1,7 +1,6 @@
 name: 修改微信步数
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '21 3 * * *'
 
